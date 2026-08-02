@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>ANTIGRAVITY Terminal</title>
+
+    <link rel="stylesheet"
+href="{{ url_for('static', filename='css/terminal.css') }}">
+
+</head>
+
+<body>
+
+<div class="terminal-window">
+
+    <div class="terminal-header">
+
+        ANTIGRAVITY RADIO TERMINAL
+
+    </div>
+
+    <div id="output" class="terminal-output">
+
+Booting ANTIGRAVITY...
+
+Loading REP-7 modules........OK
+
+Loading Radio Interface......OK
+
+Authenticating Session.......OK
+
+Signal Stable................OK
+
+
+Type "help" to begin.
+
+    </div>
+
+    <div class="terminal-input">
+
+        <span>legacy@rep7:~$</span>
+
+        <input
+            id="command"
+            type="text"
+            autocomplete="off"
+            autofocus>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/terminal.js') }}"></script>
+
+<script>
+document.getElementById("command").addEventListener("keydown", handleKey);
+</script>
+
+</body>
+
+</html>

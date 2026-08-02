@@ -1,0 +1,35 @@
+==================================================
+
+MILITARY RADIO OPERATOR REGISTRY
+
+==================================================
+
+ACTIVE OPERATORS
+
+Echo
+Atlas
+Sentinel
+
+-----------------------------------------------
+
+RETIRED OPERATORS
+
+Legacy
+
+-----------------------------------------------
+
+Training Memorandum
+
+Every certified operator must complete
+Protocol REP-7 training before attempting
+signal recovery.
+
+Recovered transmissions are considered
+invalid unless reconstructed according
+to the REP-7 procedure.
+
+-----------------------------------------------
+
+
+
+==================================================

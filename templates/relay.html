@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Military Relay</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/relay.css') }}">
+
+</head>
+
+<body>
+
+<div class="terminal-window">
+
+<div class="terminal-header">
+
+RELAY NODE 01
+
+</div>
+
+<div id="relay-output" class="terminal-output">
+
+Connecting to secure relay...
+
+Connection established.
+
+Authentication token accepted.
+
+Remote Station
+
+RELAY-01
+
+Mission Status
+
+ACTIVE
+
+Type "help"
+
+</div>
+
+<div class="terminal-input">
+
+<span>relay@milnet:~$</span>
+
+<input
+id="relay-command"
+type="text"
+autocomplete="off"
+autofocus>
+
+</div>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/relay.js') }}"></script>
+
+</body>
+
+</html>

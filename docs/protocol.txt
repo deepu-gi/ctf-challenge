@@ -1,0 +1,35 @@
+==================================================
+
+REP-7
+
+RADIO ENCRYPTION PROTOCOL
+
+Revision 7
+
+==================================================
+
+Transmission Recovery Procedure
+
+1. Identify the correct operator.
+
+2. Load the protocol.
+
+3. Recover the transmission.
+
+4. Decode the recovered fragments.
+
+5. Authenticate.
+
+--------------------------------------------------
+
+WARNING
+
+No complete transmission has ever been
+stored in a single location.
+
+Operators divided authentication phrases
+into multiple fragments.
+
+--------------------------------------------------
+
+

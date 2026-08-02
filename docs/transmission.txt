@@ -1,0 +1,27 @@
+==================================================
+
+RECOVERED TRANSMISSION
+
+==================================================
+
+Signal Integrity
+
+62%
+
+-----------------------------------------------
+
+Fragment One
+
+.-- . .- .-.
+
+-----------------------------------------------
+
+Remaining authentication fragments were
+removed from this transmission and archived
+separately.
+
+-----------------------------------------------
+
+Recovery incomplete.
+
+==================================================

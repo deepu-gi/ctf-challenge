@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Military Authentication</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AUTHENTICATION</h1>
+
+<div class="subtitle">
+
+Military Radio Authentication Gateway
+
+</div>
+
+<hr>
+
+<p>
+
+Restricted Access
+
+<br><br>
+
+Only authorized operators may continue.
+
+</p>
+
+<form method="POST">
+
+<label>Operator ID</label>
+
+<input
+type="text"
+name="username"
+placeholder="Operator ID"
+autocomplete="off"
+required>
+
+<label>Authentication Phrase</label>
+
+<input
+type="password"
+name="password"
+placeholder="Authentication Phrase"
+required>
+
+<br><br>
+
+<button type="submit">
+
+LOGIN
+
+</button>
+
+</form>
+
+{% if error %}
+
+<p class="error">
+
+{{ error }}
+
+</p>
+
+{% endif %}
+
+<hr>
+
+<div class="footer">
+
+REP-7 Authentication Module
+
+Revision 7
+
+</div>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,324 @@
+/* ==========================================================
+   SILENT OPERATOR
+   Homepage / Login / About Theme
+   ========================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#071107;
+
+    color:#44ff88;
+
+    font-family:"Courier New",monospace;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    overflow-x:hidden;
+
+}
+
+/* Background Glow */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    width:100%;
+    height:100%;
+
+    background:
+    radial-gradient(circle,
+    rgba(0,255,120,.05),
+    transparent 70%);
+
+    pointer-events:none;
+
+}
+
+/* Scanlines */
+
+body::after{
+
+    content:"";
+
+    position:fixed;
+
+    width:100%;
+    height:100%;
+
+    background:
+    repeating-linear-gradient(
+
+        0deg,
+
+        rgba(255,255,255,.02),
+
+        rgba(255,255,255,.02) 2px,
+
+        transparent 2px,
+
+        transparent 4px
+
+    );
+
+    pointer-events:none;
+
+}
+
+/* Main Panel */
+
+.container{
+
+    width:90%;
+
+    max-width:900px;
+
+    background:#000;
+
+    border:2px solid #00ff66;
+
+    padding:40px;
+
+    box-shadow:
+
+        0 0 15px #00ff66,
+
+        0 0 45px rgba(0,255,120,.25);
+
+}
+
+/* Title */
+
+h1{
+
+    font-size:52px;
+
+    letter-spacing:4px;
+
+    margin-bottom:10px;
+
+}
+
+.subtitle{
+
+    color:#88ffaa;
+
+    font-size:22px;
+
+    margin-bottom:30px;
+
+}
+
+/* Text */
+
+p{
+
+    font-size:20px;
+
+    line-height:1.7;
+
+    margin-bottom:20px;
+
+}
+
+/* Divider */
+
+hr{
+
+    border:none;
+
+    border-top:1px solid #00ff66;
+
+    margin:30px 0;
+
+}
+
+/* Status */
+
+.status{
+
+    margin-top:20px;
+
+    font-size:20px;
+
+}
+
+.green{
+
+    color:#44ff88;
+
+}
+
+.red{
+
+    color:#ff6666;
+
+}
+
+/* Signal Bar */
+
+.signal{
+
+    width:250px;
+
+    height:18px;
+
+    border:1px solid #00ff66;
+
+    margin-top:10px;
+
+    background:#001100;
+
+}
+
+.signal-fill{
+
+    width:78%;
+
+    height:100%;
+
+    background:#00ff66;
+
+}
+
+/* Navigation */
+
+.nav{
+
+    margin-top:40px;
+
+}
+
+.nav a{
+
+    display:inline-block;
+
+    margin-right:15px;
+
+    padding:12px 28px;
+
+    color:#44ff88;
+
+    border:1px solid #00ff66;
+
+    text-decoration:none;
+
+    transition:.2s;
+
+}
+
+.nav a:hover{
+
+    background:#00ff66;
+
+    color:#000;
+
+}
+
+/* Footer */
+
+.footer{
+
+    margin-top:40px;
+
+    font-size:16px;
+
+    color:#66aa66;
+
+}
+
+/* ==========================================
+   Login Form
+   ========================================== */
+
+label{
+
+    display:block;
+
+    margin-top:20px;
+
+    margin-bottom:8px;
+
+    color:#88ffaa;
+
+    font-size:18px;
+
+}
+
+input{
+
+    width:100%;
+
+    background:#010401;
+
+    color:#44ff88;
+
+    border:1px solid #00ff66;
+
+    padding:14px;
+
+    font-size:18px;
+
+    font-family:inherit;
+
+}
+
+input:focus{
+
+    outline:none;
+
+    box-shadow:0 0 10px #00ff66;
+
+}
+
+button{
+
+    margin-top:20px;
+
+    background:#001900;
+
+    color:#44ff88;
+
+    border:1px solid #00ff66;
+
+    padding:14px 30px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    transition:.2s;
+
+}
+
+button:hover{
+
+    background:#00ff66;
+
+    color:#000;
+
+}
+
+.error{
+
+    margin-top:20px;
+
+    color:#ff5555;
+
+    font-weight:bold;
+
+}

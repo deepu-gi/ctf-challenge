@@ -1,0 +1,17 @@
+======================================
+FIELD NOTE 27
+======================================
+
+The protocol was revised seven times.
+
+Only Revision 7 survived.
+
+Follow the order.
+
+Never trust plain text.
+
+Some transmissions were split across multiple archives.
+
+Operators always decoded the signal before opening the archive.
+
+======================================

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Military Archive</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static',filename='css/dashboard.css') }}">
+
+</head>
+
+<body>
+
+<div class="terminal">
+
+<h1>ARCHIVE RESTORED</h1>
+
+<hr>
+
+<p>
+
+Encrypted transmission successfully recovered.
+
+</p>
+
+<p>
+
+Operator authentication complete.
+
+</p>
+
+<hr>
+
+<h2 style="color:#00ff66;">
+
+{{ flag }}
+
+</h2>
+
+<br>
+
+<p>
+
+Congratulations.
+
+You successfully restored the final military transmission.
+
+</p>
+
+<br>
+
+<a href="/logout">
+
+Disconnect
+
+</a>
+
+</div>
+
+</body>
+
+</html>

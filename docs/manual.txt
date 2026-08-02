@@ -1,0 +1,31 @@
+========================================
+
+Military Archive
+
+========================================
+
+REP-5
+
+Compromised
+
+----------------------------------------
+
+REP-6
+
+Destroyed
+
+----------------------------------------
+
+REP-7
+
+Current
+
+----------------------------------------
+
+Training Notes
+
+Old operators always
+
+started with the signal.
+
+Operators often used the DECODE console command before restoring transmissions.
